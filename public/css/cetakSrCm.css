@@ -1,0 +1,71 @@
+.header th {
+  text-transform: uppercase;
+}
+
+.header table {
+  width: 100%;
+}
+
+.table table {
+  width: 100%;
+  font-size: 13px;
+}
+
+body {
+  font-family: arial;
+}
+
+.table th {
+  background-color: #c0c0c0;
+}
+
+.table .ttd {
+  text-align: center;
+  text-transform: uppercase;
+  width: 50%;
+}
+
+/*tambahan srcm*/
+.center {
+  text-align: center;
+}
+
+.right {
+  text-align: right;
+}
+
+.leftt {
+  text-align: left;
+}
+
+.ucase {
+  text-transform: uppercase;
+}
+
+.size12 {
+  font-size: 12px;
+}
+
+.sr {
+  font-size: 20px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.evidence {
+  border: 3px solid black;
+  width: 100%;
+  margin: auto;
+  padding: 7px;
+  box-sizing: border-box;
+}
+
+.evidence table {
+  border: 2px solid black;
+  margin: auto;
+  width: 100%;
+}
+
+/*tambahan limaS*/

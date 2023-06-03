@@ -1,0 +1,48 @@
+.center {
+  text-align: center;
+}
+.size12 {
+  font-size: 12px;
+}
+.my0 {
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.mt5 {
+  margin-top: 5px;
+}
+
+table {
+  text-align: center;
+  font-size: 9px;
+}
+
+.left {
+  text-align: left;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.ttd {
+  text-transform: uppercase;
+  width: 50%;
+}
+
+.biru {
+  background-color: #b3e6ff;
+}
+.biruMuda {
+  background-color: #e6f7ff;
+}
+.orangeMuda {
+  background-color: #ffd9b3;
+}
+.white {
+  background-color: white;
+}
+.besar {
+  text-transform: uppercase;
+}

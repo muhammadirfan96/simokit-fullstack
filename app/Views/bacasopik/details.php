@@ -1,0 +1,3 @@
+<iframe src="https://drive.google.com/viewerng/viewer?embedded=true&url=https://drive.google.com/file/d/1wxrQxtwXeZg4EjDKQ1G5yAFQFQ2OEfTc/view?usp=sharing#toolbar=0&scrollbar=0" frameBorder="0" scrolling="auto" height="100%" width="100%"></iframe>
+
+<iframe src="https://drive.google.com/viewerng/viewer?embedded=true&url=<?= base_url('list-sopik/' . $bagian . '/' . $namaPeralatan); ?>#toolbar=0&scrollbar=0" frameBorder="0" scrolling="auto" height="100%" width="100%"></iframe>

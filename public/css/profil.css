@@ -1,0 +1,14 @@
+/*smartphone version88*/
+@media (max-width: 991.98px) {
+  .logo {
+    width: 120px;
+    height: 120px;
+  }
+}
+/*dekstop version*/
+@media (min-width: 992px) {
+  .logo {
+    width: 200px;
+    height: 200px;
+  }
+}
