@@ -228,7 +228,7 @@ class Input_co extends BaseController
                     $angka0 = null;
                 }
                 $value[] = date($tahun . '-' . $bulan . '-' . $angka0 . $i);
-                for ($j = 99; $j <= 112; $j++) {
+                for ($j = 99; $j <= 113; $j++) {
                     if ($this->request->getVar("$i" . "$j") == null) {
                         $value[] = "";
                     } else {
