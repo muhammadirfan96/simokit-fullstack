@@ -64,7 +64,7 @@ class Db_limas extends BaseController
                 ->where(
                     ['username' => explode(' | ', $row['diinput_oleh'])[0]]
                 )
-                ->first()['bidang'];
+                ->first()['bidang'] ?? 'null';
         }
 
         $data = [

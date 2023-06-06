@@ -38,7 +38,7 @@ class Input_limas extends BaseController
 
     public function scheduleBoilerPerbulan($tahun, $bulan)
     {
-        return $this->scheduleBoiler = [
+        return [
             $this->schedulePerBulan($this->limasBoilerPertamaModel, $tahun, $bulan),
             $this->schedulePerBulan($this->limasBoilerKeduaModel, $tahun, $bulan),
             $this->schedulePerBulan($this->limasBoilerKetigaModel, $tahun, $bulan)
@@ -46,7 +46,7 @@ class Input_limas extends BaseController
     }
     public function scheduleTurbinPerbulan($tahun, $bulan)
     {
-        return $this->scheduleBoiler = [
+        return [
             $this->schedulePerBulan($this->limasTurbinPertamaModel, $tahun, $bulan),
             $this->schedulePerBulan($this->limasTurbinKeduaModel, $tahun, $bulan),
             $this->schedulePerBulan($this->limasTurbinKetigaModel, $tahun, $bulan),
@@ -55,7 +55,7 @@ class Input_limas extends BaseController
     }
     public function scheduleAlbaPerbulan($tahun, $bulan)
     {
-        return $this->scheduleBoiler = [
+        return [
             $this->schedulePerBulan($this->limasAlbaPertamaModel, $tahun, $bulan),
             $this->schedulePerBulan($this->limasAlbaKeduaModel, $tahun, $bulan)
         ];

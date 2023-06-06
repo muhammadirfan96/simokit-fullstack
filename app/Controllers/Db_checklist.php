@@ -66,7 +66,7 @@ class Db_checklist extends BaseController
                 ->where(
                     ['username' => explode(' | ', $row['diinput_oleh'])[0]]
                 )
-                ->first()['bidang'];
+                ->first()['bidang'] ?? 'null';
         }
 
         // end

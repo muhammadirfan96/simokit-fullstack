@@ -25,6 +25,7 @@ class ScheduleCommonModel extends Model
         "warming up edg",
         "warming up auxilliary boiler",
         "warming up pltg",
+        "pengoperasian AC standing CCR",
     ];
 
     public function data()
@@ -149,6 +150,10 @@ class ScheduleCommonModel extends Model
             $listCO[] = $this->warmingUp(
                 'warminguppltg',
                 'WARMING UP PLTG'
+            );
+            $listCO[] = $this->warmingUp(
+                'acstandingccr',
+                'PENGOPERASIAN AC STANDING CCR'
             );
         }
         return $listCO;

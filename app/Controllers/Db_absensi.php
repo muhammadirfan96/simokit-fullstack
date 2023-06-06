@@ -8,7 +8,7 @@ use Myth\Auth\Models\UserModel;
 
 class Db_absensi extends BaseController
 {
-    protected $UserModel, $AtasanModel, $KwhModel;
+    protected $UserModel, $AtasanModel, $AbsensiModel;
     public function __construct()
     {
         $this->UserModel = new UserModel();
