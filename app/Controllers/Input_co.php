@@ -152,7 +152,7 @@ class Input_co extends BaseController
                     $angka0 = null;
                 }
                 $value[] = date($tahun . '-' . $bulan . '-' . $angka0 . $i);
-                for ($j = 99; $j <= 123; $j++) {
+                for ($j = 99; $j <= 124; $j++) {
                     if ($this->request->getVar("$i" . "$j") == null) {
                         $value[] = "";
                     } else {
@@ -190,7 +190,7 @@ class Input_co extends BaseController
                     $angka0 = null;
                 }
                 $value[] = date($tahun . '-' . $bulan . '-' . $angka0 . $i);
-                for ($j = 99; $j <= 123; $j++) {
+                for ($j = 99; $j <= 124; $j++) {
                     if ($this->request->getVar("$i" . "$j") == null) {
                         $value[] = "";
                     } else {
