@@ -34,7 +34,8 @@ class ScheduleDuaModel extends Model
         "oge fan 2b",
         "cooling fan 2a",
         "cooling fan 2b",
-        "ball cleaning #2"
+        "ball cleaning #2",
+        "pengoperasian purifier eh oil #2"
     ];
 
     public function data()
@@ -202,6 +203,10 @@ class ScheduleDuaModel extends Model
             $listCO[] = $this->warmingUp(
                 'ballcleaning2',
                 'PENGOPERASIAN BALL CLEANING #2'
+            );
+            $listCO[] = $this->warmingUp(
+                'purifierehoil2',
+                'PENGOPERASIAN PURIFIER EH OIL #2'
             );
         }
         return $listCO;

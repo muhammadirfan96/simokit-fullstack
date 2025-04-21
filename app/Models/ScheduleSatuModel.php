@@ -34,7 +34,8 @@ class ScheduleSatuModel extends Model
         "oge fan 1b",
         "cooling fan 1a",
         "cooling fan 1b",
-        "ball cleaning #1"
+        "ball cleaning #1",
+        "pengoperasian purifier eh oil #1"
     ];
 
 
@@ -203,6 +204,10 @@ class ScheduleSatuModel extends Model
             $listCO[] = $this->warmingUp(
                 'ballcleaning1',
                 'PENGOPERASIAN BALL CLEANING #1'
+            );
+            $listCO[] = $this->warmingUp(
+                'purifierehoil1',
+                'PENGOPERASIAN PURIFIER EH OIL #1'
             );
         }
         return $listCO;
